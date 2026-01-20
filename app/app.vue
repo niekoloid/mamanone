@@ -7,8 +7,8 @@
   </div>
 </template>
 
-<script setup>
-const greet = () => {
+<script setup lang="ts">
+const greet = (): void => {
   alert('Welcome to your new Nuxt.js project!')
 }
 </script>
